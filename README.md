@@ -1,57 +1,87 @@
 # Hi, I'm Etai Wigman
 
-M.Sc. student in Electrical & Computer Engineering at Ben-Gurion University, focused on **algorithm development, machine learning, computer vision, signal processing, and applied AI**.
+I'm an M.Sc. student in Electrical & Computer Engineering at Ben-Gurion University, interested in **Algorithm Engineering, Machine Learning Engineering, AI Research, and Data Science**.
 
-I enjoy turning mathematical ideas into working systems—from sparse-recovery algorithms and temporal classification models to real-time vision pipelines and AI services.
+My work spans algorithm development, signal processing, machine learning, computer vision, and applied AI. I enjoy solving real-world problems by designing, implementing, and evaluating algorithms—whether the right approach involves classical methods, machine learning, computer vision, or modern AI systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Etai_Wigman-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/etai-wigman/)
-[![Email](https://img.shields.io/badge/Email-wigman.etai%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wigman.etai@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wigman.etai@gmail.com)
+
+## What I work on
+
+- Algorithm design and problem-solving
+- Machine learning, deep learning, and model evaluation
+- Signal processing and data-driven experimentation
+- Computer vision and image-processing systems
+- Applied AI services and LLM-based workflows
 
 ## Featured projects
 
-| Project | What it demonstrates | Core technologies | Links |
-| --- | --- | --- | --- |
-| **GenAI Safety Analyst** | An applied content-safety service built around language-model workflows, embeddings, and vector search. | Python · FastAPI · LangChain · Embeddings · Vector Search | [Repository](https://github.com/Etaiwi/genai-safety-analyst) · [Live demo](https://huggingface.co/spaces/Etaiwi/genai-safety-analyst) |
-| **Sparse Recovery with Model-Based Deep Learning** | Implementation and comparison of ISTA, FISTA, LISTA, ALISTA, and HyperLISTA-style approaches for sparse reconstruction. Developed as a two-person project. | Python · PyTorch · NumPy · Optimization · Model-Based Deep Learning | [Repository](https://github.com/ThEpiCake/hyperlista-mbdl) |
-| **Face Mask Detection** | A MobileNetV2 transfer-learning pipeline with real-time OpenCV inference. | Python · PyTorch · OpenCV · MobileNetV2 · Transfer Learning | [Repository](https://github.com/Etaiwi/face-mask-detection) · [Live demo](https://huggingface.co/spaces/Etaiwi/face-mask-detection) |
-| **Parkinson's Disease Detection** | Freezing-of-Gait detection from wearable accelerometer data using temporal deep-learning models; achieved 81.8% sensitivity, 80.8% specificity, and 0.890 AUC. | Python · PyTorch · CNNs · Time-Series Classification · Model Evaluation | [Repository](https://github.com/Etaiwi/parkinsons-disease-detection) |
-| **Snowboard Visual Simulator** | A real-time computer-vision system that maps body movement to interactive snowboard control. | Python · OpenCV · Image Processing · Real-Time Computer Vision | [Repository](https://github.com/Etaiwi/snowboard-simulator-using-image-processing) |
+### [Sparse Recovery with Model-Based Deep Learning](https://github.com/ThEpiCake/hyperlista-mbdl)
 
-## Technical focus
+Co-developed a two-person study comparing classical and learned sparse-recovery methods. Designed and implemented three ISTA-derived deep-unfolded models, including a 32-parameter StepThresholdISTA architecture that achieved −23.6 dB NMSE in the recorded synthetic sparse-recovery experiment.
 
-```text
-Algorithms & numerical work  Python · NumPy · Optimization · Signal Processing
-Machine learning             PyTorch · Scikit-learn · Model Evaluation · Deep Learning
-Computer vision              OpenCV · Image Processing · Real-Time Vision · Transfer Learning
-Applied AI                   FastAPI · LangChain · Embeddings · Vector Search
-```
+`Python` · `PyTorch` · `Signal Processing` · `Optimization` · `Deep Unfolding`
 
-## Current direction
+### [Parkinson's Disease Detection](https://github.com/Etaiwi/parkinsons-disease-detection)
 
-- Pursuing an M.Sc. in Electrical & Computer Engineering at Ben-Gurion University.
-- Expanding practical experience in AI, algorithms, machine learning, and computer vision.
-- Building projects that connect mathematical reasoning, careful experimentation, and usable software.
+Built an individual Freezing-of-Gait detection pipeline using data from 136 Parkinson's patients. Compared CNN and traditional machine-learning approaches using lower-back accelerometer signals, achieving 81.8% sensitivity, 80.8% specificity, and 0.890 AUC with the selected 1D CNN on four-second windows.
 
-<!--
-BEFORE PUBLISHING — CONFIRM OR CUSTOMIZE:
+`Python` · `TensorFlow` · `NumPy` · `SciPy` · `Signal Processing` · `Time-Series Classification`
 
-1. Optional headline:
-   Replace the opening description if you want to target one specific role,
-   such as Algorithm Engineer, AI Engineer, Computer Vision Engineer, or Data Scientist.
+### [Snowboard Visual Simulator](https://github.com/Etaiwi/snowboard-simulator-using-image-processing)
 
-2. GenAI Safety Analyst:
-   Confirm whether Docker is used in the public repository; add it to the project row if verified.
+Co-developed a real-time computer-vision interface in a four-person team. The system maps body posture and motion from a webcam stream to snowboard-game controls using classical image-processing techniques.
 
-3. Snowboard Visual Simulator:
-   Add the team size or your specific contribution only after confirming the wording.
+`Python` · `OpenCV` · `NumPy` · `Image Processing` · `Real-Time Computer Vision`
 
-4. Availability:
-   Optionally add location, student-position availability, or preferred role types.
+### [GenAI Safety Analyst](https://github.com/Etaiwi/genai-safety-analyst) · [Live demo](https://huggingface.co/spaces/Etaiwi/genai-safety-analyst)
 
-5. Current project:
-   Add the Mini 3D Reconstruction & Statistical Estimation Lab only after a public repository exists
-   and its implemented scope can be described accurately.
+Built and deployed an AI-assisted content-safety service combining classification, policy retrieval, vector search, structured outputs, validation, rate limiting, mocked tests, and container packaging.
 
-6. Visual extras:
-   Optionally add a profile banner or GitHub statistics card after choosing a stable provider.
--->
+`Python` · `FastAPI` · `Pydantic` · `LangChain` · `ChromaDB` · `Docker`
+
+## Additional projects
+
+### [Face Mask Detection](https://github.com/Etaiwi/face-mask-detection) · [Live demo](https://huggingface.co/spaces/Etaiwi/face-mask-detection)
+
+Built and deployed a binary image-classification application using MobileNetV2 transfer learning, with image-upload and webcam inference through an interactive Streamlit interface.
+
+`Python` · `PyTorch` · `MobileNetV2` · `Transfer Learning` · `Streamlit`
+
+### [Numerical Linear Algebra & Matrix Compression](https://github.com/Etaiwi/numerical-linear-algebra)
+
+Implemented and evaluated algorithms for randomized rank estimation, low-rank approximation, and structured matrix compression as an individual academic project.
+
+`Python` · `NumPy` · `Randomized Algorithms` · `Matrix Compression`
+
+## Technical toolbox
+
+**Algorithms and problem-solving**
+
+`Algorithm Design` · `Optimization` · `Signal Processing` · `Numerical Methods`
+
+**Machine learning and data**
+
+`PyTorch` · `TensorFlow` · `Scikit-learn` · `Pandas` · `Deep Learning` · `Model Evaluation`
+
+**Computer vision and applied AI**
+
+`OpenCV` · `Image Processing` · `Transfer Learning` · `FastAPI` · `LLM Workflows` · `Vector Databases`
+
+**Programming and workflow**
+
+`Python` · `NumPy` · `Jupyter` · `Git/GitHub`
+
+## Let's connect
+
+I'm open to **internships, student positions, and full-time opportunities**, as well as conversations and collaborations involving:
+
+- Algorithm Engineering
+- Machine Learning Engineering
+- AI Research
+- Data Science
+- Computer Vision
+- Applied AI
+
+If you're working on an interesting real-world problem—or think my background may fit your team—feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/etai-wigman/) or [send me an email](mailto:wigman.etai@gmail.com).
