@@ -5,7 +5,7 @@ I'm an M.Sc. student in Electrical & Computer Engineering at Ben-Gurion Universi
 My work spans algorithm development, signal processing, machine learning, computer vision, and applied AI. I enjoy solving real-world problems by designing, implementing, and evaluating algorithms—whether the right approach involves classical methods, machine learning, computer vision, or modern AI systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Etai_Wigman-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/etai-wigman/)
-[![Email](https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wigman.etai@gmail.com)
+[![Email](https://img.shields.io/badge/Email-wigman.etai@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wigman.etai@gmail.com)
 
 ## What I work on
 
