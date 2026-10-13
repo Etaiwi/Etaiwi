@@ -10,4 +10,4 @@ Public portfolio copies of existing academic reports:
 
 Contributor names are retained. Personal ID numbers, email addresses, and other contact details have been removed. Scientific references and technical content are preserved. PDF metadata and embedded attachments have been removed or replaced with minimal public metadata containing the report title and permitted author names.
 
-These files are edited portfolio copies. The Parkinson's author listing reflects Etai Wigman's confirmation that he completed the project alone. Original submissions are preserved separately.
+These files are edited portfolio copies with the submitted author names retained. Original submissions are preserved separately.
