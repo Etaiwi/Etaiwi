@@ -47,13 +47,13 @@ Used AI assistance for quadtree and hierarchical-matrix construction, then verif
 
 `Python` · `NumPy` · `Numerical Linear Algebra` · `Randomized Algorithms` · `Hierarchical Matrices`
 
-### [Parkinson's Disease Detection](https://github.com/Etaiwi/parkinsons-disease-detection)
+### [Parkinson's Disease Detection](https://github.com/Etaiwi/parkinsons-disease-detection) · [Report](https://github.com/Etaiwi/Etaiwi/blob/main/reports/parkinsons-detection-report.pdf)
 
 Built an individual Freezing-of-Gait detection pipeline using data from 136 Parkinson's patients. Compared CNN and traditional machine-learning approaches using lower-back accelerometer signals, achieving 81.8% sensitivity, 80.8% specificity, and 0.890 AUC with the selected 1D CNN on four-second windows.
 
 `Python` · `TensorFlow` · `NumPy` · `SciPy` · `Signal Processing` · `Time-Series Classification`
 
-### [Snowboard Visual Simulator](https://github.com/Etaiwi/snowboard-simulator-using-image-processing)
+### [Snowboard Visual Simulator](https://github.com/Etaiwi/snowboard-simulator-using-image-processing) · [Report](https://github.com/Etaiwi/Etaiwi/blob/main/reports/snowboard-simulator-report.pdf)
 
 Co-developed a real-time computer-vision interface in a four-person team. The system maps body posture and motion from a webcam stream to snowboard-game controls using classical image-processing techniques.
 
