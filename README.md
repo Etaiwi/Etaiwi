@@ -2,7 +2,7 @@
 
 I'm an M.Sc. student in Electrical & Computer Engineering at Ben-Gurion University, interested in **Algorithm Engineering, Machine Learning Engineering, AI Research, and Data Science**.
 
-My work spans algorithm development, signal processing, machine learning, computer vision, and applied AI. I enjoy solving real-world problems by designing, implementing, and evaluating algorithms—whether the right approach involves classical methods, machine learning, computer vision, or modern AI systems.
+My projects connect mathematical modeling with implementation and experimentation: sparse recovery, time-series forecasting, numerical linear algebra, sensor-data analysis, and computer vision. I also use coding agents to turn practical requirements into personal tools and workflows.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Etai_Wigman-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/etai-wigman/)
 [![Email](https://img.shields.io/badge/Email-wigman.etai@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wigman.etai@gmail.com)
@@ -14,14 +14,38 @@ My work spans algorithm development, signal processing, machine learning, comput
 - Signal processing and data-driven experimentation
 - Computer vision and image-processing systems
 - Applied AI services and LLM-based workflows
+- AI-assisted development, requirements definition, and manual functional testing
+
+## Education
+
+- **M.Sc. - Electrical & Computer Engineering**, Ben-Gurion University · 2026–2029 (expected)
+- **B.Sc. - Electrical & Computer Engineering**, Ben-Gurion University · 2019–2024 · Signal Processing, Algorithms, and Machine Learning
+
+Recent M.Sc. coursework: Model-Based Deep Learning, Information Theory, Numerical Linear Algebra, and Time Series Analysis.
 
 ## Featured projects
 
 ### [Sparse Recovery with Model-Based Deep Learning](https://github.com/ThEpiCake/hyperlista-mbdl)
 
-Co-developed a two-person study comparing classical and learned sparse-recovery methods. Designed and implemented three ISTA-derived deep-unfolded models, including a 32-parameter StepThresholdISTA architecture that achieved −23.6 dB NMSE in the recorded synthetic sparse-recovery experiment.
+Co-developed a two-person study comparing classical and learned sparse-recovery methods. Designed and implemented three ISTA-derived deep-unfolded models. In the synthetic sparse-recovery experiment at K=16, the 32-parameter StepThresholdISTA model achieved −23.6 dB NMSE versus −20.3 dB for a LISTA baseline with about six million parameters.
 
 `Python` · `PyTorch` · `Signal Processing` · `Optimization` · `Deep Unfolding`
+
+### [Dynamic Multiscale DLinear Forecasting](https://github.com/Etaiwi/long-horizon-time-series-forecasting) · [Report](https://github.com/Etaiwi/long-horizon-time-series-forecasting/blob/main/final_report.pdf)
+
+Reconstructed DLinear and developed a dynamic multiscale decomposition for multivariate Weather forecasting. Built a chronological training and evaluation pipeline with leakage-safe preprocessing, validation-driven model selection, and evaluation across four forecast horizons.
+
+At the 96-step horizon, the model reduced paired test MSE by 5.29% and MAE by 4.23% relative to DLinear, with approximately 0.2% additional trainable parameters. This was an AI-assisted, two-person academic submission with shared final verification.
+
+`Python` · `PyTorch` · `Pandas` · `Time-Series Forecasting` · `Experimental Design`
+
+### [Numerical Linear Algebra & Matrix Compression](https://github.com/Etaiwi/numerical-linear-algebra)
+
+Implemented and evaluated SVD-based numerical-rank analysis, randomized rank estimation, and blocked randomized low-rank approximation for structured matrices. Benchmarked accuracy, runtime scaling, and memory efficiency against full SVD.
+
+Used AI assistance for quadtree and hierarchical-matrix construction, then verified and corrected the structure, implemented memory analysis, and evaluated dense and low-rank block storage. Individual academic project.
+
+`Python` · `NumPy` · `Numerical Linear Algebra` · `Randomized Algorithms` · `Hierarchical Matrices`
 
 ### [Parkinson's Disease Detection](https://github.com/Etaiwi/parkinsons-disease-detection)
 
@@ -43,27 +67,31 @@ Built and deployed an AI-assisted content-safety service combining classificatio
 
 ## Additional projects
 
+### Career Automation System
+
+A personal system I use regularly for job monitoring, application tracking, and CV optimization. Its four components are Job Scraper, Application Tracker, Career Knowledge, and Career Workflow.
+
+The combined workflow takes a job URL, captures the listing, creates an application record, generates a tailored CV from confirmed career evidence, and saves that CV in the tracker. The job monitor runs scheduled checks every 15 minutes.
+
+I originated the ideas, defined requirements and workflow behavior, manually tested the tools, and directed improvements through feedback. Codex implemented all code and automated tests.
+
+`Codex` · `AI-Assisted Software Development` · `Requirements Definition` · `Manual Functional Testing` · `AI Workflow Design`
+
 ### [Face Mask Detection](https://github.com/Etaiwi/face-mask-detection) · [Live demo](https://huggingface.co/spaces/Etaiwi/face-mask-detection)
 
 Built and deployed a binary image-classification application using MobileNetV2 transfer learning, with image-upload and webcam inference through an interactive Streamlit interface.
 
 `Python` · `PyTorch` · `MobileNetV2` · `Transfer Learning` · `Streamlit`
 
-### [Numerical Linear Algebra & Matrix Compression](https://github.com/Etaiwi/numerical-linear-algebra)
-
-Implemented and evaluated algorithms for randomized rank estimation, low-rank approximation, and structured matrix compression as an individual academic project.
-
-`Python` · `NumPy` · `Randomized Algorithms` · `Matrix Compression`
-
 ## Technical toolbox
 
 **Algorithms and problem-solving**
 
-`Algorithm Design` · `Optimization` · `Signal Processing` · `Numerical Methods`
+`Algorithm Design` · `Optimization` · `Signal Processing` · `Numerical Methods` · `Numerical Linear Algebra`
 
 **Machine learning and data**
 
-`PyTorch` · `TensorFlow` · `Scikit-learn` · `Pandas` · `Deep Learning` · `Model Evaluation`
+`PyTorch` · `TensorFlow` · `Scikit-learn` · `Pandas` · `Deep Learning` · `Model Evaluation` · `Time-Series Analysis`
 
 **Computer vision and applied AI**
 
@@ -71,7 +99,17 @@ Implemented and evaluated algorithms for randomized rank estimation, low-rank ap
 
 **Programming and workflow**
 
-`Python` · `NumPy` · `Jupyter` · `Git/GitHub`
+`Python` · `C` · `C++` · `MATLAB` · `NumPy` · `Jupyter` · `Git/GitHub` · `SQL (foundational)`
+
+**AI-assisted project practices**
+
+`Codex` · `AI-Assisted Software Development` · `Requirements Definition` · `Manual Functional Testing` · `AI Workflow Design`
+
+## Engineering foundations
+
+Academic laboratory experience includes programming and debugging physical MSP430 boards in assembly using IAR Embedded Workbench, with GPIO, interrupts, timers, PWM, and ADC sampling. Circuit laboratory work includes reading schematics, building circuits, and measuring their behavior with oscilloscopes, bench power supplies, signal generators, and multimeters.
+
+C/C++ and MATLAB experience comes from academic coursework; SQL foundations include hands-on completion of the PostgreSQL tutorial.
 
 ## Let's connect
 
