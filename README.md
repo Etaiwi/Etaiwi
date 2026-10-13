@@ -25,13 +25,13 @@ Recent M.Sc. coursework: Model-Based Deep Learning, Information Theory, Numerica
 
 ## Featured projects
 
-### [Sparse Recovery with Model-Based Deep Learning](https://github.com/ThEpiCake/hyperlista-mbdl)
+### [Sparse Recovery with Model-Based Deep Learning](https://github.com/ThEpiCake/hyperlista-mbdl) · [Report](https://github.com/Etaiwi/Etaiwi/blob/main/reports/sparse-recovery-report.pdf)
 
 Co-developed a two-person study comparing classical and learned sparse-recovery methods. Designed and implemented three ISTA-derived deep-unfolded models. In the synthetic sparse-recovery experiment at K=16, the 32-parameter StepThresholdISTA model achieved −23.6 dB NMSE versus −20.3 dB for a LISTA baseline with about six million parameters.
 
 `Python` · `PyTorch` · `Signal Processing` · `Optimization` · `Deep Unfolding`
 
-### [Dynamic Multiscale DLinear Forecasting](https://github.com/Etaiwi/long-horizon-time-series-forecasting) · [Report](https://github.com/Etaiwi/long-horizon-time-series-forecasting/blob/main/final_report.pdf)
+### [Dynamic Multiscale DLinear Forecasting](https://github.com/Etaiwi/long-horizon-time-series-forecasting) · [Report](https://github.com/Etaiwi/Etaiwi/blob/main/reports/dlinear-forecasting-report.pdf)
 
 Reconstructed DLinear and developed a dynamic multiscale decomposition for multivariate Weather forecasting. Built a chronological training and evaluation pipeline with leakage-safe preprocessing, validation-driven model selection, and evaluation across four forecast horizons.
 
@@ -39,7 +39,7 @@ At the 96-step horizon, the model reduced paired test MSE by 5.29% and MAE by 4.
 
 `Python` · `PyTorch` · `Pandas` · `Time-Series Forecasting` · `Experimental Design`
 
-### [Numerical Linear Algebra & Matrix Compression](https://github.com/Etaiwi/numerical-linear-algebra)
+### [Numerical Linear Algebra & Matrix Compression](https://github.com/Etaiwi/numerical-linear-algebra) · [Report](https://github.com/Etaiwi/Etaiwi/blob/main/reports/numerical-linear-algebra-report.pdf)
 
 Implemented and evaluated SVD-based numerical-rank analysis, randomized rank estimation, and blocked randomized low-rank approximation for structured matrices. Benchmarked accuracy, runtime scaling, and memory efficiency against full SVD.
 
